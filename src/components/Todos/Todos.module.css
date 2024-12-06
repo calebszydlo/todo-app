@@ -1,0 +1,5 @@
+/* Todos.module.css */
+
+.todos {
+  @apply mx-auto w-full max-w-[34rem] px-5 text-center;
+}

@@ -1,0 +1,5 @@
+/* TodoList.module.css */
+
+.todoList {
+  @apply grid gap-3 my-6;
+}

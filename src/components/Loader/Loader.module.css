@@ -1,0 +1,36 @@
+/* Loader.module.css */
+
+.loader,
+.miniLoader {
+  @apply absolute z-10 bg-white bg-opacity-60 flex flex-col justify-center items-center top-0 left-0 right-0 bottom-0 text-primary text-sm font-semibold min-h-64;
+}
+
+.miniLoader {
+  @apply min-h-0 rounded bg-none;
+}
+
+.loaderIcon {
+  @apply w-5 h-5 rounded-full block relative mt-1;
+}
+
+.loaderIcon::before,
+.loaderIcon::after {
+  @apply w-5 h-5 block rounded-full border-2 border-primary absolute left-0 top-0;
+  animation: loader 1.8s linear infinite;
+  content: '';
+}
+
+.loaderIcon::after {
+  animation-delay: -0.9s;
+}
+
+@keyframes loader {
+  0% {
+    @apply opacity-100;
+    transform: scale(0);
+  }
+  100% {
+    @apply opacity-0;
+    transform: scale(1);
+  }
+}

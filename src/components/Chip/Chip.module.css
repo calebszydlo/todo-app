@@ -1,0 +1,5 @@
+/* Chip.module.css */
+
+.chip {
+  @apply py-1 px-2 ring-1 ring-black ring-inset rounded text-sm;
+}
