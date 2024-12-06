@@ -4,12 +4,16 @@
 
 ### To Start
 In the project directory, the following commands will install dependencies and launch the app:
+
 `npm i`
+
 `npm start`
+
 App should launch to [localhost:3000](http://localhost:3000/)
 
 ### Running Tests
 There are very limited tests written, only against a couple helper functions in src/utils/tests, this command will launch the test runner:
+
 `npm test`
 
 ## 2. About this setup:
